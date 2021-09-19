@@ -49,6 +49,14 @@ section {
   line-height: 2.5rem;
   margin: 2rem 0;
 }
-.image__about__me{
+.image__about__me {
   border-radius: 1rem;
+}
+
+li {
+  list-style-type: none;
+}
+input,textarea{
+  outline: none;
+  font-family: inherit;
 }

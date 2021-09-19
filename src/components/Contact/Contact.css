@@ -1,0 +1,40 @@
+.contact__form input {
+  width: 100%;
+  border: 0;
+  background-color: #2b2b2b;
+  height: 5rem;
+  font-size: 1.6rem;
+  color: #8d8d8d;
+  padding: 0 2rem;
+}
+.contact__form > ul > li {
+  margin-bottom: 1rem;
+}
+.marginB2 {
+  margin-bottom: 2rem;
+}
+
+.contact__form textarea {
+  width: 100%;
+  border: none;
+  background: #2b2b2b;
+  height: 5rem;
+  font-size: 1.6rem;
+  color: #8d8d8d;
+  padding: 2rem;
+  min-height: 15rem;
+}
+.btn-ctm {
+  border: 1px solid #08fdd8;
+  padding: 2rem;
+  font-size: 1.5rem;
+  text-decoration: none;
+  color: #08fdd8;
+  width:100%;
+}
+.button__contact{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
