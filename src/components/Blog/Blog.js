@@ -25,7 +25,7 @@ function Blog() {
   ];
   return (
     <section className="blog">
-      <h1 className="ghostTitle">Blog</h1>
+      <h1 className="ghostTitle">BLOG</h1>
       <div className="container">
         <div className="grid__blog">
           {blogItems.map((item, index) => {

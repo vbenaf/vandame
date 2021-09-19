@@ -22,3 +22,50 @@
   border-radius: 1rem;
   opacity: .8;
 }
+.hero_btn{
+  display: none;
+}
+
+
+/*  MEDIA QUERIES  */
+
+@media only screen and (min-width: 768px) {
+  .flex{
+    display: flex;
+    justify-content: space-between;
+  }
+  .info > h1{
+    font-size: 4.5rem;
+  }
+  .info > h3{
+    font-size: 2.5rem;
+  }
+  .image{max-width: 30rem;}
+  .hero_btn{
+    display: block;
+  }
+}
+
+/*  MEDIA QUERIES  */
+
+@media only screen and (min-width: 996px) {
+  .flex{
+    display: flex;
+    justify-content: space-between;
+  }
+  .info > h1{
+    font-size: 5.5rem;
+  }
+  .info > h3{
+    font-size: 2.5rem;
+  }
+  .hero_btn{
+    font-size: 2rem;
+  }
+  .image{
+    max-width: 40rem;
+  }
+  .hero{
+    height:100vh;
+  }
+}

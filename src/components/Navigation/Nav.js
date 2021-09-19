@@ -7,7 +7,7 @@ import "./Nav.css";
 function Nav() {
   const links = ["About", "Skills", "Portfolio", "Blog", "Contact"];
   const body = document.querySelector("body");
-
+  const [linkActive, setLinkActive] = useState(0);
   const click = () => {
     body.classList.toggle("open");
   };
@@ -26,10 +26,15 @@ function Nav() {
           <ul className="nav__list">
             {links.map((link, index) => {
               return (
-                <li className="nav__list__item" key={index}>
+                <li
+                  onClick={() => setLinkActive(index)}
+                  className="nav__list__item"
+                  key={index}
+                >
                   <a href="#" className="nav__list__item__link">
                     {link}
                   </a>
+                  {index == linkActive && <div className="blueDot"></div>}
                 </li>
               );
             })}

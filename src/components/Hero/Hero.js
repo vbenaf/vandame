@@ -11,8 +11,15 @@ function Hero() {
               HI, <br /> I'M VANDAME, <br /> WEB DEVELOPER
             </h1>
             <h3>Front End Developer / App developer</h3>
+            <div className="button__contact">
+            <a href="#" className="btn-ctm hero_btn">
+              CONTACT ME
+            </a>
           </div>
-          <img src={vandameHeroImage} className="img__container" />
+          </div>
+          <div className = "image">
+            <img src={vandameHeroImage} className="img__container" />
+          </div>
         </div>
       </div>
     </section>

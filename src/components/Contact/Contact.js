@@ -4,7 +4,7 @@ function Contact() {
   return (
     <section className="contact">
       <div className="container">
-        <h1 className="titleSection marginB2">Contact me</h1>
+        <h1 className="titleSection marginB2">CONTACT</h1>
         <form className="contact__form">
           <ul>
             <li className="half">

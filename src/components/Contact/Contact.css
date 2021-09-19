@@ -30,13 +30,10 @@
   font-size: 1.5rem;
   text-decoration: none;
   color: #08fdd8;
-  width: 100%;
 }
 .button__contact {
   display: flex;
   align-items: center;
-  justify-content: center;
-  text-align: center;
 }
 .half {
   width: 49%;
