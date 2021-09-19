@@ -30,11 +30,35 @@
   font-size: 1.5rem;
   text-decoration: none;
   color: #08fdd8;
-  width:100%;
+  width: 100%;
 }
-.button__contact{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    text-align: center;
+.button__contact {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+.half {
+  width: 49%;
+  float: left;
+  margin-left: 2%;
+}
+.half:first-child {
+  margin-left: 0;
+}
+
+/* MEDIA QUERIES */
+
+@media screen and (max-width: 480px) {
+  .half {
+    width: 100%;
+    margin-left: 0;
+    float: none;
+    clear: none;
+  }
+}
+
+.contact__form {
+  max-width: 80rem;
+  margin: 0 auto;
 }

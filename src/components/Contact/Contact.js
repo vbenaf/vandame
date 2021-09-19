@@ -20,12 +20,12 @@ function Contact() {
               <textarea placeholder="Message" />
             </li>
           </ul>
+          <div className="button__contact">
+            <a href="#" className="btn-ctm">
+              SEND MESSAGE
+            </a>
+          </div>
         </form>
-        <div className="button__contact">
-          <a href="#" className="btn-ctm">
-            SEND MESSAGE
-          </a>
-        </div>
       </div>
     </section>
   );

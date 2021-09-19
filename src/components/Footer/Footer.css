@@ -1,0 +1,11 @@
+.footer {
+  background-color: white;
+}
+.navigate > ul > li {
+  margin: 1rem 0;
+}
+.navigate > ul > li > a {
+  font-size: 1.3rem;
+  color: #b9083d;
+  font-weight: 500;
+}
