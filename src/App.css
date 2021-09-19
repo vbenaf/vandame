@@ -26,7 +26,7 @@ a {
   text-decoration: none;
 }
 p {
-  font-size: 1.6rem;
+  font-size: 1.4rem;
 }
 
 header {
@@ -43,10 +43,12 @@ section {
 .titleSection {
   color: #08fdd8;
   font-size: 3rem;
-  margin-bottom: 2rem;
 }
-.portfolio__description {
-  font-size: 1.7rem;
+.section__description {
   color: white;
   line-height: 2.5rem;
+  margin: 2rem 0;
+}
+.image__about__me{
+  border-radius: 1rem;
 }

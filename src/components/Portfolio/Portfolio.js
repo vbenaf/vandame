@@ -27,7 +27,7 @@ function Portfolio() {
     <section className="portfolio">
       <div className="container">
         <h1 className="titleSection">PORTFOLIO</h1>
-        <p className="portfolio__description">
+        <p className="section__description">
           This is a gallery of some projects chosen by me. Some of them are
           university projects and some others are projects to learn new
           technologies and improve my knowledge.
