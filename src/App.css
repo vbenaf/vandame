@@ -36,3 +36,17 @@ header {
   left: 0;
   z-index: 1;
 }
+
+section {
+  padding: 2rem 0;
+}
+.titleSection {
+  color: #08fdd8;
+  font-size: 3rem;
+  margin-bottom: 2rem;
+}
+.portfolio__description {
+  font-size: 1.7rem;
+  color: white;
+  line-height: 2.5rem;
+}
