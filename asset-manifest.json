@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/vandame/static/css/main.39bd45ca.chunk.css",
+    "main.js": "/vandame/static/js/main.86e591e7.chunk.js",
+    "main.js.map": "/vandame/static/js/main.86e591e7.chunk.js.map",
+    "runtime-main.js": "/vandame/static/js/runtime-main.cb4df389.js",
+    "runtime-main.js.map": "/vandame/static/js/runtime-main.cb4df389.js.map",
+    "static/js/2.19edbe95.chunk.js": "/vandame/static/js/2.19edbe95.chunk.js",
+    "static/js/2.19edbe95.chunk.js.map": "/vandame/static/js/2.19edbe95.chunk.js.map",
+    "static/js/3.71f247dc.chunk.js": "/vandame/static/js/3.71f247dc.chunk.js",
+    "static/js/3.71f247dc.chunk.js.map": "/vandame/static/js/3.71f247dc.chunk.js.map",
+    "index.html": "/vandame/index.html",
+    "static/css/main.39bd45ca.chunk.css.map": "/vandame/static/css/main.39bd45ca.chunk.css.map",
+    "static/js/2.19edbe95.chunk.js.LICENSE.txt": "/vandame/static/js/2.19edbe95.chunk.js.LICENSE.txt",
+    "static/media/about.62ddc03e.jpg": "/vandame/static/media/about.62ddc03e.jpg",
+    "static/media/my_logo.626b3324.png": "/vandame/static/media/my_logo.626b3324.png",
+    "static/media/vandame.7575eb4d.JPG": "/vandame/static/media/vandame.7575eb4d.JPG"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.cb4df389.js",
+    "static/js/2.19edbe95.chunk.js",
+    "static/css/main.39bd45ca.chunk.css",
+    "static/js/main.86e591e7.chunk.js"
+  ]
+}
