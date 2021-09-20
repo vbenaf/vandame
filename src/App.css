@@ -16,6 +16,7 @@ html {
   max-width: 1000px;
   margin: 0 auto;
   padding: 0 2.4rem;
+  overflow: hidden;
 }
 
 img {

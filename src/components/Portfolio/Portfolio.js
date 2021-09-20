@@ -26,6 +26,7 @@ function Portfolio() {
   return (
     <section className="portfolio">
       <div className="container">
+      <h1 className="portfolio__ghost">WORK</h1>
         <h1 className="titleSection">PORTFOLIO</h1>
         <p className="section__description">
           This is a gallery of some projects chosen by me. Some of them are

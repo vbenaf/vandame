@@ -29,3 +29,15 @@
     letter-spacing: .3rem;
     display: block;
 }
+
+/*  MEDIA QUERIES  */
+
+@media only screen and (min-width: 768px) {
+  .ghostTitle {
+    position: absolute;
+    font-size: 20rem;
+    color: rgba(255, 255, 255, 0.062);
+    top: 2rem;
+    left:25rem;
+  }
+}

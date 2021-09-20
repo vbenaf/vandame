@@ -44,6 +44,12 @@
   .hero_btn{
     display: block;
   }
+  .grid {
+    margin-top: 10rem;
+  }
+  .image__about{
+    max-width: 40rem;
+  }
 }
 
 /*  MEDIA QUERIES  */

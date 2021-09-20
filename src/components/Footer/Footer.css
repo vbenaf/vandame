@@ -1,11 +1,38 @@
 .footer {
   background-color: white;
 }
+.flex__container {
+  display: flex;
+  justify-content: space-between;
+}
 .navigate > ul > li {
   margin: 1rem 0;
+}
+.follow__me > ul > li {
+  display: inline;
+  margin: 0 1rem;
+}
+.follow__me > ul > li > a:hover{
+  cursor: pointer;
+}
+.follow__me > ul {
+  margin-top: 3rem;
+}
+.follow__me > ul > li > a > img {
+  max-width: 2rem;
+  filter:grayscale(1)
 }
 .navigate > ul > li > a {
   font-size: 1.3rem;
   color: #b9083d;
   font-weight: 500;
+}
+
+
+/*  MEDIA QUERIES  */
+
+@media only screen and (min-width: 768px) {
+  .follow__me > ul > li > a > img {
+    max-width: 3rem;
+  }
 }
